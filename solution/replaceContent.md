@@ -112,10 +112,6 @@
       <td>ID</td>
     </tr>
     <tr>
-      <td>uuid</td>
-      <td>UUID, 唯一, 用于拼接固定链接</td>
-    </tr>
-    <tr>
       <td>hub_id</td>
       <td>空间ID</td>
     </tr>
@@ -150,5 +146,4 @@ https://assets.yourdomain.com/getter?scene_id=xxx&position=1
 
 https://assets.yourdomain.com/getter?scene_id=xxx&position=1&hub_id=yyy
 
-上面说用户访问空间时的链接地址, 此时可获得 room_assets.url 来进行资源跳转
-
+上面是用户访问空间时的链接地址, 此时可获得 room_assets.url 来进行资源跳转
