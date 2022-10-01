@@ -14,6 +14,8 @@ XVR元宇宙致力于提供虚拟数字空间服务，为数字藏品赋能元�
 
 3. [空间创建同步接口](https://github.com/XVR-Art/Private-Deployment/blob/master/api/syncCreate.md)
 
+4. [名称鉴敏接口](https://github.com/XVR-Art/Private-Deployment/blob/master/api/nameCheck.md)
+
 ### 解决方案
 
 1. [自定义空间资源和打开链接](https://github.com/XVR-Art/Private-Deployment/blob/master/solution/replaceContent.md)
