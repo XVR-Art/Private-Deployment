@@ -4,6 +4,8 @@
 
 用户修改自己的昵称或空间名称前, 会把名称信息以 x-www-form-urlencoded 的方式 POST 至您的服务器进行鉴黄鉴敏。
 
+检查通过后可以根据当前类型更新对应记录的名称, 以实现名称同步功能。
+
 <table width="100%">
     <tr>
       <th width="25%">项目</th>
@@ -31,16 +33,20 @@
       <th>说明</th>
     </tr>
     <tr>
-      <td>email</td>
-      <td>用户邮箱</td>
+      <td>type</td>
+      <td>类型: nickname(昵称), spacename(空间名称)</td>
     </tr>
     <tr>
       <td>name</td>
       <td>名称</td>
     </tr>
     <tr>
-      <td>type</td>
-      <td>类型: nickname(昵称), spacename(空间名称)</td>
+      <td>email</td>
+      <td>用户邮箱, 已登录用户修改昵称时有此值</td>
+    </tr>
+    <tr>
+      <td>hub_id</td>
+      <td>空间ID, type=spacename时有此值</td>
     </tr>
 </table>
 
