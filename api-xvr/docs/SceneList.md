@@ -28,6 +28,7 @@ https://{host}/v1/scene/list
     "msg": "OK",
     "items": [
         {
+            "scene_id": 1266457025731100701,
             "scene_sid": "5fi3HzB",
             "name": "测试修改",
             "description": null,
