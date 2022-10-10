@@ -47,7 +47,8 @@ https://{host}/v1/space/create
     "code": 0,
     "msg": "OK",
     "result": {
-        "hub_sid": "jde5lui"
+        "hub_id": 1339681349329485911,
+        "hub_sid": "LoFkjN1"
     }
 }
 ```

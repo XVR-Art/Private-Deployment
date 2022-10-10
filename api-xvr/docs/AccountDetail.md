@@ -22,7 +22,7 @@ https://{host}/v1/account/detail
 {
     "code": 0,
     "msg": "OK",
-    "items": {
+    "item": {
         "account_id": 1266348169189392386,
         "inserted_at": "2022-07-01 09:08:26",
         "updated_at": "2022-07-01 09:10:53",

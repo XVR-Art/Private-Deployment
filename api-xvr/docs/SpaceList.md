@@ -28,32 +28,32 @@ https://{host}/v1/space/list
     "msg": "OK",
     "items": [
         {
-            "hub_sid": "FXBrZCd",
-            "name": "Youthful Vicious Zone",
-            "max_occupant_count": 0,
-            "entry_mode": "allow",
-            "scene_id": null,
-            "host": "localhost",
-            "last_active_at": null,
-            "embed_token": "1a8e3f4e7b2e9cf6ea2e9a2acdea68eb",
-            "embedded": false,
-            "description": null,
-            "room_size": null,
-            "created_by_account_id": 1266348169189392386
-        },
-        {
-            "hub_sid": "vVPV7nC",
-            "name": "Vital Charming Outing",
+            "hub_id": 1339677009332142166,
+            "hub_sid": "hsgsQeR",
+            "name": "测试空间-1665407985",
             "max_occupant_count": 0,
             "entry_mode": "allow",
             "scene_id": 1266457025731100701,
-            "host": "localhost",
             "last_active_at": null,
-            "embed_token": "7f913485183e2c8f27210c0ec55c28db",
+            "embed_token": "e1b481ceaddb4768bba13ef78cd60571",
             "embedded": false,
-            "description": null,
-            "room_size": null,
-            "created_by_account_id": null
+            "description": "又一个全新的VR空间",
+            "room_size": 10,
+            "created_by_account_id": 1338662375435272265
+        },
+        {
+            "hub_id": 1338817089216970834,
+            "hub_sid": "jde5lui",
+            "name": "测试空间-1665305475",
+            "max_occupant_count": 0,
+            "entry_mode": "allow",
+            "scene_id": 1266457025731100701,
+            "last_active_at": null,
+            "embed_token": "26bdb2bead43fa194f269ee973040c54",
+            "embedded": false,
+            "description": "又一个全新的VR空间",
+            "room_size": 10,
+            "created_by_account_id": 1338662375435272265
         }
     ]
 }

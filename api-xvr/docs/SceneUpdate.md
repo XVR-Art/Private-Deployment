@@ -11,8 +11,12 @@ https://{host}/v1/scene/update
       <th>说明</th>
     </tr>
     <tr>
+      <td>scene_id</td>
+      <td>场景ID, 指定要更新的场景</td>
+    </tr>
+    <tr>
       <td>scene_sid</td>
-      <td>场景SID, 指定要更新的场景</td>
+      <td>场景SID, 用于URL, 不建议更新此字段</td>
     </tr>
     <tr>
       <td>name</td>

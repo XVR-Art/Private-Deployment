@@ -1,4 +1,4 @@
-# 创建空间
+# 更新空间
 
 ### 接口地址
 
@@ -11,8 +11,12 @@ https://{host}/v1/space/update
       <th>说明</th>
     </tr>
     <tr>
+      <td>hub_id</td>
+      <td>空间ID, 用于指定要更新的空间</td>
+    </tr>
+    <tr>
       <td>hub_sid</td>
-      <td>空间SID, 用于指定要更新的空间</td>
+      <td>空间SID, 唯一, 用于URL, 可以自定义此值来达到与众不同的空间地址, 也可随机修改, 来达到不关闭空间的情况下, 让其他人无法访问<br />空间地址: https://{yourdomain.com}/{hub_sid}</td>
     </tr>
     <tr>
       <td>created_by_account_id</td>

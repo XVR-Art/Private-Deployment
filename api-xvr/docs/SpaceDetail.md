@@ -11,8 +11,8 @@ https://{host}/v1/space/detail
       <th>说明</th>
     </tr>
     <tr>
-      <td>hub_sid</td>
-      <td>空间SID</td>
+      <td>hub_id</td>
+      <td>空间ID</td>
     </tr>
 </table>
 
@@ -22,19 +22,19 @@ https://{host}/v1/space/detail
 {
     "code": 0,
     "msg": "OK",
-    "items": {
+    "item": {
+        "hub_id": 1266348286336303108,
         "hub_sid": "56hBqY9",
-        "name": "Magnificent Spicy Cosmos",
+        "name": "测试空间",
         "max_occupant_count": 0,
         "entry_mode": "allow",
-        "scene_id": null,
-        "host": null,
+        "scene_id": 1266457025731100701,
         "last_active_at": null,
         "embed_token": "7ba34f915c5cf00ebb9a5972fa3d1931",
         "embedded": false,
-        "description": null,
-        "room_size": null,
-        "created_by_account_id": 1266348169189392386
+        "description": "又一个全新的VR空间",
+        "room_size": 24,
+        "created_by_account_id": 1338662375435272265
     }
 }
 ```
