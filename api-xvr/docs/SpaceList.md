@@ -2,7 +2,7 @@
 
 ### 接口地址
 
-https://{host}/v1/space/list
+{api_gateway}/v1/space/list
 
 #### 业务参数
 <table width="100%">

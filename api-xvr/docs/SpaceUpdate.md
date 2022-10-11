@@ -2,7 +2,7 @@
 
 ### 接口地址
 
-https://{host}/v1/space/update
+{api_gateway}/v1/space/update
 
 #### 业务参数
 <table width="100%">

@@ -2,7 +2,7 @@
 
 ### 接口地址
 
-https://{host}/v1/scene/detail
+{api_gateway}/v1/scene/detail
 
 #### 业务参数
 <table width="100%">
@@ -28,7 +28,7 @@ https://{host}/v1/scene/detail
     </tr>
     <tr>
       <td>scene_sid</td>
-      <td>场景SID, 唯一, 用于URL</td>
+      <td>场景SID, 唯一, 用于URL, 可拼接出场景详情页, 例如: {main_domain}/scenes/{scene_sid}</td>
     </tr>
     <tr>
       <td>name</td>
@@ -44,7 +44,7 @@ https://{host}/v1/scene/detail
     </tr>
     <tr>
       <td>screenshot_uuid</td>
-      <td>缩略图UUID, 用于拼接出缩略图地址, 例如: https://{assets-domain.com}/files/{screenshot_uuid}</td>
+      <td>缩略图UUID, 用于拼接出缩略图地址, 例如: {thumb_gateway}/files/{screenshot_uuid}</td>
     </tr>
 </table>
 

@@ -2,7 +2,7 @@
 
 ### 接口地址
 
-https://{host}/v1/scene/update
+{api_gateway}/v1/scene/update
 
 #### 业务参数
 <table width="100%">

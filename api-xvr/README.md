@@ -35,22 +35,36 @@
 
 ### 关键参数
 
+以下参数在私有化部署成功后即可联系客服获取
+
 <table width="100%">
     <tr>
         <th width="20%">参数</th>
         <th>说明</th>
     </tr>
     <tr>
+        <td>main_domain</td>
+        <td>XVR部署域名, 即您的XVR元宇宙系统所在的域名, 提供用户访问</td>
+    </tr>
+    <tr>
+        <td>thumb_gateway</td>
+        <td>缩略图网关, 用于拼接出场景缩略图等地址</td>
+    </tr>
+    <tr>
+        <td>assets_gateway</td>
+        <td>资源网关, 用于储存场景资源的OSS/CDN</td>
+    </tr>
+    <tr>
+        <td>api_gateway</td>
         <td>API接口网关</td>
-        <td>私有化部署后联系业务人员获取</td>
     </tr>
     <tr>
         <td>access_token</td>
-        <td>令牌, 私有化部署后联系业务人员获取或重置</td>
+        <td>API令牌, 接口调用时用于确定调用者身份</td>
     </tr>
     <tr>
         <td>secret_key</td>
-        <td>密钥, 私有化部署后联系业务人员获取或重置</td>
+        <td>API密钥, 用于签名</td>
     </tr>
 </table>
 
