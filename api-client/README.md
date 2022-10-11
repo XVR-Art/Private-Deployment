@@ -19,8 +19,8 @@
 
 1. [空间访问鉴权接口](https://github.com/XVR-Art/Private-Deployment/blob/master/api-client/docs/auth.md)
 
-2. [空间创建鉴权接口](https://github.com/XVR-Art/Private-Deployment/blob/master/api-client/docs/checkQuota.md)
+2. [空间创建鉴权接口(不建议使用)](https://github.com/XVR-Art/Private-Deployment/blob/master/api-client/docs/checkQuota.md)
 
-3. [空间创建同步接口](https://github.com/XVR-Art/Private-Deployment/blob/master/api-client/docs/syncCreate.md)
+3. [空间创建同步接口(不建议使用)](https://github.com/XVR-Art/Private-Deployment/blob/master/api-client/docs/syncCreate.md)
 
-4. [名称鉴敏接口](https://github.com/XVR-Art/Private-Deployment/blob/master/api-client/docs/nameCheck.md)
+4. [名称鉴敏接口(不建议使用)](https://github.com/XVR-Art/Private-Deployment/blob/master/api-client/docs/nameCheck.md)
