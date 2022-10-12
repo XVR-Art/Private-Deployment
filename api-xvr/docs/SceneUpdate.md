@@ -12,19 +12,19 @@
     </tr>
     <tr>
       <td>scene_id</td>
-      <td>场景ID, 指定要更新的场景</td>
+      <td>场景ID, bigint, 指定要更新的场景</td>
     </tr>
     <tr>
       <td>scene_sid</td>
-      <td>场景SID, 用于URL, 不建议更新此字段</td>
+      <td>场景SID, varying(255), 用于URL, 不建议更新此字段</td>
     </tr>
     <tr>
       <td>name</td>
-      <td>名称</td>
+      <td>名称, varying(255)</td>
     </tr>
     <tr>
       <td>description</td>
-      <td>描述</td>
+      <td>描述, varying(255)</td>
     </tr>
     <tr>
       <td>state</td>

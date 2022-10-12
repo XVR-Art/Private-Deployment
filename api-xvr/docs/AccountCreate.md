@@ -12,7 +12,7 @@
     </tr>
     <tr>
       <td>email</td>
-      <td>邮箱</td>
+      <td>邮箱, varying(255)</td>
     </tr>
     <tr>
       <td>state</td>

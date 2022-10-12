@@ -12,31 +12,31 @@
     </tr>
     <tr>
       <td>hub_id</td>
-      <td>空间ID, 用于指定要更新的空间</td>
+      <td>空间ID, bigint, 用于指定要更新的空间</td>
     </tr>
     <tr>
       <td>hub_sid</td>
-      <td>空间SID, 唯一, 用于URL, 可以自定义此值来达到与众不同的空间地址, 也可随机修改, 来达到不关闭空间的情况下, 让其他人无法访问<br />空间地址: https://{yourdomain.com}/{hub_sid}</td>
+      <td>空间SID, varying(255), 唯一, 用于URL, 可以自定义此值来达到与众不同的空间地址, 也可随机修改, 来达到不关闭空间的情况下, 让其他人无法访问<br />空间地址: https://{yourdomain.com}/{hub_sid}</td>
     </tr>
     <tr>
       <td>created_by_account_id</td>
-      <td>所属用户, 即用户的 account_id</td>
+      <td>所属用户, bigint, 即用户的 account_id</td>
     </tr>
     <tr>
       <td>scene_sid</td>
-      <td>场景SID</td>
+      <td>场景SID, varying(255)</td>
     </tr>
     <tr>
       <td>name</td>
-      <td>名称</td>
+      <td>名称, varying(255)</td>
     </tr>
     <tr>
       <td>description</td>
-      <td>描述</td>
+      <td>描述, varying(255)</td>
     </tr>
     <tr>
       <td>room_size</td>
-      <td>房间大小, 即可以同时容纳多少人, 范围: 1-50</td>
+      <td>房间大小, integer, 即可以同时容纳多少人, 范围: 1-50</td>
     </tr>
     <tr>
       <td>entry_mode</td>

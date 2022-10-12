@@ -12,7 +12,7 @@
     </tr>
     <tr>
       <td>account_id</td>
-      <td>账号ID</td>
+      <td>账号ID, bigint</td>
     </tr>
     <tr>
       <td>state</td>

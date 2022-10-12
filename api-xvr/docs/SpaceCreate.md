@@ -12,27 +12,27 @@
     </tr>
     <tr>
       <td>hub_sid</td>
-      <td>空间SID, 唯一, 不传入则会自动生成</td>
+      <td>空间SID, varying(255), 唯一, 不传入则会自动生成</td>
     </tr>
     <tr>
       <td>created_by_account_id</td>
-      <td>所属用户, 即用户的 account_id</td>
+      <td>所属用户, bigint, 即用户的 account_id</td>
     </tr>
     <tr>
       <td>scene_sid</td>
-      <td>场景SID</td>
+      <td>场景SID, varying(255)</td>
     </tr>
     <tr>
       <td>name</td>
-      <td>名称</td>
+      <td>名称, varying(255)</td>
     </tr>
     <tr>
       <td>description</td>
-      <td>描述</td>
+      <td>描述, varying(255)</td>
     </tr>
     <tr>
       <td>room_size</td>
-      <td>房间大小, 即可以同时容纳多少人, 范围: 1-50</td>
+      <td>房间大小, integer, 即可以同时容纳多少人, 范围: 1-50</td>
     </tr>
     <tr>
       <td>entry_mode</td>

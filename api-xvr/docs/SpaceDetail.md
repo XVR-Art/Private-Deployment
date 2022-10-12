@@ -24,19 +24,19 @@
     </tr>
     <tr>
       <td>hub_id</td>
-      <td>空间ID</td>
+      <td>空间ID, bigint</td>
     </tr>
     <tr>
       <td>hub_sid</td>
-      <td>空间SID, 唯一, 用于URL, 可拼接出空间地址, 例如: {main_domain}/{hub_sid}</td>
+      <td>空间SID, varying(255), 唯一, 用于URL, 可拼接出空间地址, 例如: {main_domain}/{hub_sid}</td>
     </tr>
     <tr>
       <td>name</td>
-      <td>名称</td>
+      <td>名称, varying(255)</td>
     </tr>
     <tr>
       <td>description</td>
-      <td>描述</td>
+      <td>描述, varying(255)</td>
     </tr>
     <tr>
       <td>entry_mode</td>
@@ -44,23 +44,23 @@
     </tr>
     <tr>
       <td>scene_id</td>
-      <td>场景ID</td>
+      <td>场景ID, bigint</td>
     </tr>
     <tr>
       <td>room_size</td>
-      <td>空间大小, 可同时容纳的在线人数</td>
+      <td>空间大小, integer, 可同时容纳的在线人数</td>
     </tr>
     <tr>
       <td>max_occupant_count</td>
-      <td>最大在线人数, 含大厅</td>
+      <td>最大在线人数(含大厅), integer</td>
     </tr>
     <tr>
       <td>created_by_account_id</td>
-      <td>拥有者账号ID</td>
+      <td>拥有者账号ID, bigint</td>
     </tr>
     <tr>
       <td>last_active_at</td>
-      <td>最后活跃时间</td>
+      <td>最后活跃时间, timestamp(0) without time zone</td>
     </tr>
 </table>
 

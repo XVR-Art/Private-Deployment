@@ -28,19 +28,19 @@
     </tr>
     <tr>
       <td>scene_id</td>
-      <td>场景ID</td>
+      <td>场景ID, bigint</td>
     </tr>
     <tr>
       <td>scene_sid</td>
-      <td>场景SID, 唯一, 用于URL, 可拼接出场景详情页, 例如: {main_domain}/scenes/{scene_sid}</td>
+      <td>场景SID, varying(255), 唯一, 用于URL, 可拼接出场景详情页, 例如: {main_domain}/scenes/{scene_sid}</td>
     </tr>
     <tr>
       <td>name</td>
-      <td>名称</td>
+      <td>名称, varying(255)</td>
     </tr>
     <tr>
       <td>description</td>
-      <td>描述</td>
+      <td>描述, varying(255)</td>
     </tr>
     <tr>
       <td>state</td>
@@ -48,7 +48,7 @@
     </tr>
     <tr>
       <td>screenshot_uuid</td>
-      <td>缩略图UUID, 用于拼接出缩略图地址, 例如: {thumb_gateway}/files/{screenshot_uuid}</td>
+      <td>缩略图UUID, varying(255), 用于拼接出缩略图地址, 例如: {thumb_gateway}/files/{screenshot_uuid}</td>
     </tr>
 </table>
 
