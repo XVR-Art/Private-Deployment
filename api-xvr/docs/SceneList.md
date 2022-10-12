@@ -1,6 +1,6 @@
 # 获取场景列表
 
-### 接口地址
+#### 接口地址
 
 {api_gateway}/v1/scene/list
 
