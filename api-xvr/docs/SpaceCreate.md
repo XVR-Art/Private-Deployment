@@ -20,11 +20,7 @@
     </tr>
     <tr>
       <td>scene_id</td>
-      <td>场景ID, bigint, 和scene_sid二选一, 都传入则以scene_id为准</td>
-    </tr>
-    <tr>
-      <td>scene_sid</td>
-      <td>场景SID, varying(255), 和scene_id二选一, 都传入则以scene_id为准</td>
+      <td>场景ID, bigint</td>
     </tr>
     <tr>
       <td>name</td>
