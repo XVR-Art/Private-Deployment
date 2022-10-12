@@ -17,4 +17,4 @@
 
 ### 解决方案
 
-1. [自定义空间资源和打开链接](../../../blob/master/solution/replaceContent.md)
+1. [自定义空间资源和打开链接](../../blob/master/solution/replaceContent.md)
