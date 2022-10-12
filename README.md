@@ -11,10 +11,10 @@
 
 ### 接口文档
 
-1. [XVR侧API接口](https://github.com/XVR-Art/Private-Deployment/tree/master/api-xvr) - 由客户调用, 实现资源管控
+1. [XVR侧API接口](./api-xvr) - 由客户调用, 实现资源管控
 
-2. [客户侧API接口](https://github.com/XVR-Art/Private-Deployment/tree/master/api-client) - 由客户实现, 定制化前端部分功能
+2. [客户侧API接口](./api-client) - 由客户实现, 定制化前端部分功能
 
 ### 解决方案
 
-1. [自定义空间资源和打开链接](https://github.com/XVR-Art/Private-Deployment/blob/master/solution/replaceContent.md)
+1. [自定义空间资源和打开链接](../../../blob/master/solution/replaceContent.md)
