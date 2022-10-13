@@ -5,6 +5,7 @@
 {api_gateway}/v1/space/update
 
 #### 业务参数
+
 <table width="100%">
     <tr>
       <th width="25%">参数</th>
@@ -41,6 +42,43 @@
     <tr>
       <td>entry_mode</td>
       <td>状态, 可选值: allow/deny</td>
+    </tr>
+    <tr>
+      <td>member_permissions</td>
+      <td>成员权限, integer, 默认0, 从权限列表中选取项目, 按位或 (空间主人不受此权限限制)</td>
+    </tr>
+</table>
+
+#### 权限列表
+
+<table width="100%">
+    <tr>
+      <th width="25%">权限</th>
+      <th>值(二进制)</th>
+    </tr>
+    <tr>
+      <td>创建和移动物品</td>
+      <td>000001</td>
+    </tr>
+    <tr>
+      <td>创建相机</td>
+      <td>000010</td>
+    </tr>
+    <tr>
+      <td>创建手绘</td>
+      <td>000100</td>
+    </tr>
+    <tr>
+      <td>固定对象</td>
+      <td>001000</td>
+    </tr>
+    <tr>
+      <td>发送表情</td>
+      <td>010000</td>
+    </tr>
+    <tr>
+      <td>创建和移动物品</td>
+      <td>100000</td>
     </tr>
 </table>
 

@@ -62,6 +62,10 @@
       <td>last_active_at</td>
       <td>最后活跃时间, timestamp(0) without time zone</td>
     </tr>
+    <tr>
+      <td>member_permissions</td>
+      <td>成员权限, integer</td>
+    </tr>
 </table>
 
 #### 成功返回示例
