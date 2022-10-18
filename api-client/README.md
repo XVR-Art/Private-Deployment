@@ -24,3 +24,5 @@
 3. [空间创建同步接口(不建议使用)](../../../blob/master/api-client/docs/syncCreate.md)
 
 4. [名称鉴敏接口(不建议使用)](../../../blob/master/api-client/docs/nameCheck.md)
+
+5. [获取自定义头像接口](../../../blob/master/api-client/docs/avatar.md)
