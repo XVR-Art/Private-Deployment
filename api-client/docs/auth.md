@@ -36,7 +36,7 @@
     </tr>
     <tr>
       <td>hub_id</td>
-      <td>字符串, 空间ID</td>
+      <td>字符串, 空间SID, 注意: 此字段传入的其实是 hub_sid 的值</td>
     </tr>
     <tr>
       <td>hub_url</td>
