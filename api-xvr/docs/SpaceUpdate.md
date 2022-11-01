@@ -24,8 +24,8 @@
       <td>所属用户, bigint, 即用户的 account_id</td>
     </tr>
     <tr>
-      <td>scene_sid</td>
-      <td>场景SID, varying(255)</td>
+      <td>scene_id</td>
+      <td>场景ID, bigint</td>
     </tr>
     <tr>
       <td>name</td>
