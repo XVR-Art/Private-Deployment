@@ -15,6 +15,10 @@
       <td>账号ID, bigint</td>
     </tr>
     <tr>
+      <td>email</td>
+      <td>邮箱, 可选值, 不修改请勿传入</td>
+    </tr>
+    <tr>
       <td>state</td>
       <td>状态, 可选值: enabled/disabled</td>
     </tr>
