@@ -17,7 +17,9 @@
     </tr>
     <tr>
       <td>hub_sid</td>
-      <td>空间SID, varying(255), 唯一, 用于URL, 可以自定义此值来达到与众不同的空间地址, 也可随机修改, 来达到不关闭空间的情况下, 让其他人无法访问<br />空间地址: https://{yourdomain.com}/{hub_sid}</td>
+      <td>空间SID, varying(255), 唯一, 用于URL, 可以自定义此值来达到与众不同的空间地址, 也可随机修改, 来达到不关闭空间的情况下, 让其他人无法访问<br />空间地址: https://{yourdomain.com}/{hub_sid}<br />
+      <span style="color:red;">不传入hub_id, 但是传入hub_sid, 则表示根据hub_sid来更新空间</span>
+      </td>
     </tr>
     <tr>
       <td>created_by_account_id</td>
@@ -81,11 +83,11 @@
       <td>00100000</td>
     </tr>
     <tr>
-      <td>允许文本聊天</td>
+      <td>允许语音聊天</td>
       <td>01000000</td>
     </tr>
     <tr>
-      <td>允许语音聊天</td>
+      <td>允许文本聊天</td>
       <td>10000000</td>
     </tr>
 </table>
